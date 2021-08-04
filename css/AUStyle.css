@@ -1,0 +1,129 @@
+/* stylesheet for wireframe*/
+* {
+	box-sizing: border-box;
+}
+header {
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0 auto;
+}
+/* Company logo and welcome text block */
+.logo {
+	font-family: "Times New Roman", Times, serif;
+	border: 2px solid black;
+	overflow: hidden;
+	position: relative;
+	background-color: lightblue;
+  height: 80px;
+	padding:5px 20px;
+}
+.logo img{
+	background-color: lightblue;
+	position: absolute;
+	right: 50px;
+  padding: 2px 2px
+}
+/* Navigational button block */
+nav {
+	border: 1px solid black;
+	height: 50px;
+	background-color: lightblue;
+	justify-content: space-around;
+}
+nav ul {
+  margin: 16px;
+  height: 40px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+nav a {
+	text-decoration: none;
+	background-color: white;
+	padding: 5px 20px;
+	outline-style: outset;
+}
+/* unvisited link */
+a:link {
+  color: darkblue;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: pink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+/* body */
+body {
+	background-image: linear-gradient(white, lightblue, blue);
+}
+/* antacrtic banner styling */
+.banner {
+	margin: 0 auto;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	width: 1000px;
+	height: 150px;
+	justify-content: center;
+	overflow: hidden;
+}
+.banner img {
+	width: 999px;
+	height: 149px;
+	position: relative;
+}
+.banner h2 {
+	position: absolute;
+	top:175px;
+	left: 50%;
+	transform: translateX(-50%)
+}
+section {
+    border: 1px solid black;
+    width: 1000px;
+		padding: 10px;
+    margin: 0 auto;
+		background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+}
+.specials1 {
+    background-color: pink;
+}
+.specials2 {
+    background-color: pink;
+}
+.cardholder {
+	display: flex;
+  border: 1px solid black;
+	padding: 10px;
+  background-color: white;
+}
+.card {
+    border: 1px solid black;
+}
+/* Bottom of the page box */
+footer {
+	border: 1px solid black;
+	margin: 0 auto;
+	background-color: lightblue;
+	width: 1000px;
+}
+.footerIcons {
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items:  center;
+	padding: 10px;
+}
