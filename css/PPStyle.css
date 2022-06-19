@@ -1,0 +1,162 @@
+/* stylesheet for wireframe*/
+* {
+	box-sizing: border-box;
+}
+header {
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0 auto;
+}
+/* Company logo and welcome text block */
+.logo {
+	font-family: "Times New Roman", Times, serif;
+	border: 2px solid black;
+	overflow: hidden;
+	position: relative;
+	background-color: lightblue;
+  height: 80px;
+	padding:5px 20px;
+}
+.logo img{
+	background-color: lightblue;
+	position: absolute;
+	right: 50px;
+  padding: 2px 2px
+}
+/* Navigational button block */
+nav {
+	border: 1px solid black;
+	height: 50px;
+	background-color: lightblue;
+	justify-content: space-around;
+}
+nav ul {
+  margin: 16px;
+  height: 40px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+nav a {
+	text-decoration: none;
+	background-color: white;
+	padding: 5px 20px;
+	outline-style: outset;
+}
+nav a:hover {
+    background-color: pink;
+}
+
+/* body */
+body {
+	background-image: linear-gradient(white, lightblue, blue);
+}
+/* antacrtic banner styling */
+.banner {
+	margin: 0 auto;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	width: 1000px;
+	height: 150px;
+	justify-content: center;
+	overflow: hidden;
+}
+.banner img {
+	width: 999px;
+	height: 149px;
+	position: relative;
+}
+.banner h2 {
+	position: absolute;
+	top:175px;
+	left: 50%;
+	transform: translateX(-50%)
+}
+section {
+    width: 1000px;
+		padding: 10px;
+    margin: 0 auto;
+		background-color: lightgrey;
+    display: flex;
+}
+.topSection {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding: 5px;
+  background-color: white;
+
+}
+.cardholder {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	justify-content: space-around;
+	display: flex;
+	padding: 5px;
+  background-color: white;
+}
+
+.card1 {
+    align-items: center;
+    display: flex;
+	padding: 10px;
+    border: 1px solid black;
+    width: 500px;
+    justify-content: space-around;
+}
+.specials1 {
+    background-color: lightgrey;
+		justify-content: space-around;
+		padding: 25px;
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+		border-top: 1px solid black;
+}
+.card2 {
+	padding: 10px;
+	border: 1px solid black;
+	background-color: white;
+}
+.card3 {
+	padding: 10px;
+	border: 1px solid black;
+	height: 150px;
+	background-color: white;
+}
+.specials2 {
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+    background-color: lightgrey;
+		justify-content: space-between;
+		padding: 25px;
+}
+.card4 {
+	padding: 10px;
+	border: 1px solid black;
+	background-color: white;
+}
+.card5 {
+	padding-left: 25px;
+}
+
+
+/* Bottom of the page box */
+footer {
+	border: 1px solid black;
+	margin: 0 auto;
+	background-color: lightblue;
+	width: 1000px;
+	display: flex;
+}
+.footerIcons {
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	display: flex;
+	align-items:  center;
+	padding: 10px;
+}
+.footerText {
+	justify-content: space-between;
+}
